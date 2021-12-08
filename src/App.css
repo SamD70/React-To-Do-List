@@ -135,3 +135,22 @@ select{
     background: white;
     color: blue;
 }
+@media (max-width:700px){
+    header{
+        font-size: 1rem;
+    }
+    form input, form button{
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+    
+    select{
+        color: blue;
+        width: 6rem;
+        cursor: pointer;
+        padding: 0.8rem;
+    }
+    .todo-item{
+        padding: 0rem 3rem;
+    }
+}
